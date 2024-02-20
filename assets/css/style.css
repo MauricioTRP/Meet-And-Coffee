@@ -1,0 +1,119 @@
+/* Preset Navegador */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Reglas para Navbar */
+
+nav {
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+}
+
+nav ul * {
+    display: inline;
+    vertical-align: middle;
+    padding-left: 0.3rem;
+    color: white;
+    fill: white;
+    text-decoration: none;
+}
+
+ul li a img {
+    width: 2rem;
+    color: white;
+    fill :white;
+}
+
+/* Reglas Header */
+
+header {
+    background-image: url(../img/bg-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2em 3em;
+    color: white;
+    text-align: right;
+}
+
+/* Reglas Donde nos juntamos */
+
+.juntamos {
+    /* background-color: aqua; */
+    margin: auto;
+    text-align: center;
+    padding: 3rem 15%;
+}
+
+.juntamos .wrapper {
+    width: 90%;
+    padding: 2rem 1rem ;    
+}
+
+.juntamos img {
+    width: 90%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    box-shadow: 5px 3px 15px darkgray;
+}
+
+.charla {
+    background-color: #A4452C;
+    color: white;
+}
+
+.charla .wrapper {
+    padding: 3rem 4rem;
+}
+
+.charla .wrapper * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.charla .wrapper img {
+    width: 30%;
+    margin-right: 4%;
+}
+
+.charla .wrapper .text {
+    width: 50%;
+}
+
+.eventos {
+    text-align: center;
+}
+
+.eventos .wrapper {
+    padding: 3rem 3rem;
+    margin: auto;
+}
+
+.eventos .tile {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 2rem;
+    width: 25%;
+    padding-bottom: 1rem;
+    box-shadow: 3px 2px 4px darkgray;
+}
+
+.eventos .tile img {
+    max-height: 4rem;
+    min-height: 3rem;
+    margin: 1rem 0rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+footer img {
+    padding: 1rem ;
+}
